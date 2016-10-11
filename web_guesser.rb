@@ -7,5 +7,7 @@ get '/' do
 		rand_num = rand(101)
 	end
 
-	"The secret number is #{rand_num}"
+	erb :index, :locals => {:rand_num => rand_num}
+
 end
+
