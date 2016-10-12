@@ -13,7 +13,9 @@ There is also a cheat mode, but I'm not going to tell you how to activate it. (a
 Assuming the prerequisites are met, a simple UNIX based OS installation would be:
 
 `gem install sinatra`
+
 `gem install sinatra-contrib`
+
 `git clone https://github.com/NedelescuVlad/web-guesser ~/`
 
 In order to start the server:
